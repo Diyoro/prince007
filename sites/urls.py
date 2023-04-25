@@ -30,5 +30,6 @@ urlpatterns = [
     path('AllSubject/', AllSubject, name='AllSubject'),
     path('ClassRoutine/', ClassRoutine, name='ClassRoutine'),
     path('StudentAttendence/', StudentAttendence, name='StudentAttendence'),
+    path('login/', login, name='login')
 ]
 

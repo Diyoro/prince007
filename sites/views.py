@@ -82,4 +82,7 @@ def ClassRoutine(request):
 def StudentAttendence(request):
     return render(request, 'sites/student-attendence.html')
 
+def login(request):
+    return render(request,'sites/login.html' )
+
 
